@@ -4,11 +4,8 @@ from bot_logic import gen_pass
 from discord.ext import commands
 
 
-# La variable intents almacena los privilegios del bot
 intents = discord.Intents.default()
-# Activar el privilegio de lectura de mensajes
 intents.message_content = True
-# Crear un bot en la variable cliente y transferirle los privilegios
 Bot = commands.Bot (command_prefix = "$" ,intents=intents)
 
 @Bot.event
