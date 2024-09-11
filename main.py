@@ -39,4 +39,4 @@ async def repeat(ctx, times: int, content='repeating...'):
     for i in range(times):
         await ctx.send(content)
 
-Bot.run("MTI3ODE1Nzg2NTI0ODYyNDY5MQ.GF1YYQ.HLdto7jN7sUeOYVzZvT3JUT3VPfuSoI7zcBKd0")
+Bot.run("")
